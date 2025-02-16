@@ -3,10 +3,18 @@
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
   "customizations": {
     "vscode": {
+      "settings": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        }
+      },
       "extensions": [
         "dbaeumer.vscode-eslint",
         "EditorConfig.EditorConfig",
-        "mutantdino.resourcemonitor"
+        "mutantdino.resourcemonitor",
+        "csstools.postcss"
       ]
     }
   }
