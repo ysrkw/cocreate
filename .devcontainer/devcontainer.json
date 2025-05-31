@@ -1,6 +1,6 @@
 {
   "name": "cocreate",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bullseye",
   "customizations": {
     "vscode": {
       "settings": {
